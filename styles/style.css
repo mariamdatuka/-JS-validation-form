@@ -1,0 +1,123 @@
+/****************************
+/*********variables and functions********/
+/***********************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/images/bg-intro-desktop.png);
+  background-color: hsl(0deg, 100%, 74%);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 18rem;
+  padding-right: 14rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+.header h1 {
+  font-size: 6rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.dsc {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.text-container2 {
+  margin-top: 10rem;
+}
+
+.trial {
+  width: 60rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(248deg, 32%, 49%);
+  font-size: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 7px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3rem;
+}
+.trial p {
+  color: #fff;
+  letter-spacing: 1px;
+}
+.trial p span {
+  font-weight: 700;
+}
+
+.form-container {
+  width: 60rem;
+  height: 57rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 7px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.form div input {
+  width: 45rem;
+  height: 6rem;
+  border-radius: 6px;
+}
+
+button {
+  width: 45rem;
+  height: 6rem;
+  border-radius: 6px;
+  background-color: hsl(154deg, 59%, 51%);
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.terms {
+  color: hsl(246deg, 25%, 77%);
+  font-size: 1.2rem;
+}
+.terms span {
+  color: red;
+  font-weight: 700;
+}
+
+/****** For error message ********/
+.error {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  text-align: end;
+}/*# sourceMappingURL=style.css.map */

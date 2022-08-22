@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Open+Sans&family=Poppins&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="/script.js"></script>
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="container-grid-1">
+        <div class="text-container">
+          <div class="header">
+            <h1>Learn to code by watching others</h1>
+          </div>
+          <div class="description">
+            <p class="dsc">
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-grid-2">
+        <div class="text-container2">
+          <div class="trial">
+            <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+          </div>
+
+          <div class="form-container">
+            <form class="form" id="form1">
+              <div class="firtstName">
+                <input
+                  id="first-name"
+                  name="First Name"
+                  type="text"
+                  placeholder="First Name"
+                  onfocusout="validateFirstName()"
+                />
+                <div></div>
+              </div>
+              <div class="lastName">
+                <input
+                  id="last-name"
+                  name="Last Name"
+                  type="text"
+                  placeholder="Last Name"
+                  onfocusout="validateLastName()"
+                />
+                <div></div>
+              </div>
+              <div class="mail">
+                <input
+                  id="email"
+                  name="Email"
+                  type="text"
+                  placeholder="name@yahoo.com"
+                  onfocusout="validateEmail()"
+                />
+                <div></div>
+              </div>
+              <div class="pass">
+                <input
+                  id="password"
+                  name="Password"
+                  type="password"
+                  placeholder="password"
+                  onfocusout="validatePassword()"
+                />
+                <div></div>
+              </div>
+              <div class="passconfirm">
+                <input
+                  id="password-confirm"
+                  name="passwords"
+                  type="password"
+                  placeholder="confirm password"
+                  onfocusout="validatePasswordConfirm()"
+                />
+
+                <div></div>
+              </div>
+              <button type="submit">CLAIM YOUR FREE TRIAL</button>
+              <div class="addition">
+                <p class="terms">
+                  by clicking the button, you are agreeing to our
+                  <span>Terms and Services</span>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
